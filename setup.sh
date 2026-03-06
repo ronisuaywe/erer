@@ -12,4 +12,4 @@ cat > ~/Library/LaunchAgents/com.user.myscript.plist << 'EOF'
   <key>StartInterval</key><integer>3600</integer>
 </dict></plist>
 EOF
-launchctl load ~/Library/LaunchAgents/com.user.myscript.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.user.myscript.plist
